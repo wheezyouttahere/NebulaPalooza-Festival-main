@@ -1,0 +1,14 @@
+[
+  {
+    "id": "V1",
+    "name": "Letna Park",
+    "type": "Outdoor",
+    "link": "/api/venues/V1"
+  },
+  {
+    "id": "V2",
+    "name": "Vystaviste Praha",
+    "type": "Indoor/Exhibition",
+    "link": "/api/venues/V2"
+  }
+]

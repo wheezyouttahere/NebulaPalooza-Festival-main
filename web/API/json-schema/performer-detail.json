@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/api/performers/{id}",
+  "title": "PerformerDetail",
+  "type": "object",
+  "required": ["id", "name", "specialty", "events"],
+  "properties": {
+    "id":        { "type": "string", "pattern": "^P[0-9]+$" },
+    "name":      { "type": "string" },
+    "specialty": { "type": "string" },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "day", "venueId"],
+        "properties": {
+          "id":      { "type": "string", "pattern": "^E[0-9]+$" },
+          "title":   { "type": "string" },
+          "day":     { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+          "venueId": { "type": "string", "pattern": "^V[0-9]+$" }
+        }
+      }
+    }
+  }
+}

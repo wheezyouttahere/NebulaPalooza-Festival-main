@@ -1,0 +1,17 @@
+{
+  "id": "nebula-palooza-2026",
+  "name": "NebulaPalooza",
+  "year": 2026,
+  "location": "Prague, Czech Republic",
+  "dates": "June 4-6, 2026",
+  "description": "A Sci-Art fusion festival blending high-energy music with educational space exploration.",
+  "tickets": {
+    "dayPass": { "name": "Day Pass", "price": 25, "currency": "EUR" },
+    "fullAccess": { "name": "Full Cosmic Access", "price": 60, "currency": "EUR" }
+  },
+  "links": {
+    "venues": "/api/venues",
+    "performers": "/api/performers",
+    "events": "/api/events"
+  }
+}

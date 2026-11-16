@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/api/venues",
+  "title": "Venues",
+  "type": "array",
+  "items": { "$ref": "#/$defs/VenueSummary" },
+  "$defs": {
+    "VenueSummary": {
+      "type": "object",
+      "required": ["id", "name", "type", "link"],
+      "properties": {
+        "id":   { "type": "string", "pattern": "^V[0-9]+$" },
+        "name": { "type": "string" },
+        "type": { "type": "string", "enum": ["Outdoor", "Indoor/Exhibition", "Indoor", "Mixed"] },
+        "link": { "type": "string" }
+      }
+    }
+  }
+}

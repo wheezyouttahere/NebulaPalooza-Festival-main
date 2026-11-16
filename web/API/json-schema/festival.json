@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/api/festival",
+  "title": "Festival",
+  "type": "object",
+  "required": ["id", "name", "year", "location", "dates", "description", "tickets", "links"],
+  "properties": {
+    "id":          { "type": "string" },
+    "name":        { "type": "string" },
+    "year":        { "type": "integer", "minimum": 2000, "maximum": 2099 },
+    "location":    { "type": "string" },
+    "dates":       { "type": "string" },
+    "description": { "type": "string" },
+    "tickets": {
+      "type": "object",
+      "properties": {
+        "dayPass":    { "$ref": "#/$defs/TicketOption" },
+        "fullAccess": { "$ref": "#/$defs/TicketOption" }
+      }
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "venues":     { "type": "string" },
+        "performers": { "type": "string" },
+        "events":     { "type": "string" }
+      }
+    }
+  },
+  "$defs": {
+    "TicketOption": {
+      "type": "object",
+      "required": ["name", "price", "currency"],
+      "properties": {
+        "name":     { "type": "string" },
+        "price":    { "type": "number", "minimum": 0 },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3}$" }
+      }
+    }
+  }
+}

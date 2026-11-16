@@ -1,0 +1,8 @@
+{
+  "id": "P18",
+  "name": "Aurora Synth",
+  "specialty": "Synthwave DJ",
+  "events": [
+    { "id": "E18", "title": "Opening DJ Set - Aurora Synth", "day": "2026-06-04", "venueId": "V1" }
+  ]
+}

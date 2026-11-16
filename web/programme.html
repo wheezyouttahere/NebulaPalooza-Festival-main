@@ -1,0 +1,840 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programme – NebulaPalooza 2026</title>
+    <meta
+      name="description"
+      content="Full 3-day programme for NebulaPalooza 2026. Browse workshops, concerts, science talks, drone shows, and painting masterclasses at Letná Park and Výstaviště Praha."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Programme – NebulaPalooza 2026" />
+    <meta
+      property="og:description"
+      content="60+ events over 3 days — filter by venue or day."
+    />
+    <meta
+      property="og:image"
+      content="https://picsum.photos/seed/prog2026/1200/630"
+    />
+
+    <!-- JSON-LD: Events sample -->
+    <script type="application/ld+json">
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Opening DJ Set – Aurora Synth",
+          "startDate": "2026-06-04",
+          "location": {
+            "@type": "Place",
+            "name": "Letná Park",
+            "address": "Prague, CZ"
+          },
+          "performer": { "@type": "Person", "name": "Aurora Synth" }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "Journey to Mars",
+          "startDate": "2026-06-05",
+          "location": {
+            "@type": "Place",
+            "name": "Výstaviště Praha",
+            "address": "Prague, CZ"
+          },
+          "performer": { "@type": "Person", "name": "Dr. Pavel Horák" }
+        }
+      ]
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Nebula<span>Palooza</span></div>
+      <nav>
+        <a href="custom_list.html">My Programme</a>
+        <a href="index.html">Home</a>
+        <a href="programme.html" class="active">Programme</a>
+        <a href="performers.html">Performers</a>
+        <a href="practical.html">Info</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <p class="label">3-Day Schedule</p>
+        <h1>Programme</h1>
+        <p>
+          60+ events across two venues — June 4, 5 &amp; 6, 2026. Use the tabs
+          to filter by day. All events are free with a valid festival pass.
+        </p>
+      </section>
+
+      <section>
+        <img
+          src="images/events.png"
+          id="events"
+          alt="NebulaPalooza programme stage at Letná Park"
+        />
+        <ul style="margin-bottom: 1rem; color: var(--muted)">
+          <li>
+            <span class="tag tag-cyan" style="margin-right: 0.5rem">Music</span>
+            Letná Park — outdoor main stage
+          </li>
+          <li>
+            <span class="tag" style="margin-right: 0.5rem">Workshop</span>
+            Výstaviště Praha — indoor lab halls
+          </li>
+          <li>
+            <span class="tag tag-pink" style="margin-right: 0.5rem"
+              >Visual</span
+            >
+            Drone &amp; light shows nightly at 21:30
+          </li>
+        </ul>
+        <address>
+          Festival grounds: Letenské sady &amp; Výstaviště 67, Praha 7 —
+          <a href="practical.html#venues">see map</a>
+        </address>
+
+        <aside>
+          <h3>Ticket Reminder</h3>
+          <p>All events are included with a valid festival pass. Day Pass: €20 / 500 CZK · Full Cosmic Access (all 3 days): €49 / 1200 CZK. <a href="practical.html#tickets">→ Buy tickets</a></p>
+        </aside>
+      </section>
+
+      <!-- Add filter controls above your schedule -->
+       <!-- Interactive Filter & Search Bar -->
+<div class="filter-bar" style="margin: 3.5rem 0 2.5rem 0; display: flex; flex-direction: column; gap: 1.5rem;">
+  
+  <!-- Search Input Container -->
+  <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+    <label for="search-events" style="font-size: 0.95rem; color: var(--cyan); font-weight: bold; letter-spacing: 0.05em;">SEARCH PROGRAMME</label>
+    <input 
+      type="text" 
+      id="search-events" 
+      placeholder="Search events, topics, or performers..." 
+      style="padding: 1rem; font-size: 1rem; background: var(--panel); border: 2px solid var(--border); color: var(--white); border-radius: 8px; width: 100%; box-sizing: border-box;"
+    />
+  </div>
+
+  <!-- Category Dropdown Container -->
+  <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+    <label for="filter-tag" style="font-size: 0.95rem; color: var(--cyan); font-weight: bold; letter-spacing: 0.05em;">FILTER BY CATEGORY</label>
+    <select 
+      id="filter-tag" 
+      style="padding: 1rem 1rem; font-size: 1rem; background: var(--panel); border: 4px solid var(--border); color: var(--white); border-radius: 8px; width: 100%; cursor: pointer; box-sizing: border-box;"
+    >
+      <option value="">All Categories</option>
+      <option value="Music">Music</option>
+      <option value="Workshop">Workshop</option>
+      <option value="Tech">Tech</option>
+      <option value="Visual">Visual</option>
+      <option value="Show">Show</option>
+    </select>
+  </div>
+
+</div>
+
+      <hr class="glow-line" />
+
+      <!-- Day 1 -->
+      <section id="day1">
+        <p class="label">Thursday · 4 June 2026</p>
+        <h2>Day 1 — Opening Night</h2>
+
+        <section id="day1-letn">
+          <h3 style="color: var(--cyan); margin-bottom: 1rem">
+            🚀 Letná Park (Outdoor Stage)
+          </h3>
+          <article class="event-row">
+            <time datetime="2026-06-04T18:00">18:00</time>
+            <div>
+              <h3>Water Rocket Launch Lab</h3>
+              <p>Petra Kralova · Rocketry Instructor</p>
+            </div>
+            <span class="tag tag-cyan">Workshop</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T20:00">20:00</time>
+            <div>
+              <h3>Drone Navigation Challenge</h3>
+              <p>Jakub Steiner · Robotics Trainer</p>
+            </div>
+            <span class="tag">Tech</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T21:30">21:30</time>
+            <div>
+              <h3>Laser Lab / Light Shows</h3>
+              <p>Eva Santoro · Light Engineer</p>
+            </div>
+            <span class="tag tag-pink">Visual</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T22:30">22:30</time>
+            <div>
+              <h3>Stellar Origins: Drone Show</h3>
+              <p>Orion Skye · Drone Choreographer</p>
+            </div>
+            <span class="tag tag-pink">Show</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T23:00">23:00</time>
+            <div>
+              <h3>Orbit Prague: Drone Formation</h3>
+              <p>Luna Karas · Drone Specialist</p>
+            </div>
+            <span class="tag tag-pink">Show</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T23:30">23:30</time>
+            <div>
+              <h3>Nebula Dreams: Light Art</h3>
+              <p>Celeste Vega · Light Artist</p>
+            </div>
+            <span class="tag tag-pink">Visual</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T00:00">00:00</time>
+            <div>
+              <h3>Opening DJ Set – Aurora Synth</h3>
+              <p>Aurora Synth · Synthwave DJ</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T01:30">01:30</time>
+            <div>
+              <h3>Synthwave Concert – Lumina Beats</h3>
+              <p>Lumina Beats · Live Synth Performer</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T02:30">02:30</time>
+            <div>
+              <h3>Galactic Groove Set</h3>
+              <p>Galaxy Groove · Funk DJ Collective</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+        </section>
+
+        <section id="day1-vyst" style="margin-top: 2.5rem">
+          <h3 style="color: var(--violet); margin-bottom: 1rem">
+            🔬 Výstaviště Praha (Lab Halls)
+          </h3>
+          <article class="event-row">
+            <time datetime="2026-06-04T10:00">10:00</time>
+            <div>
+              <h3>Build Your Own Telescope</h3>
+              <p>Dr. Elena Markovic · Astrophysicist</p>
+            </div>
+            <span class="tag">Workshop</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T12:00">12:00</time>
+            <div>
+              <h3>Night Sky Mapping</h3>
+              <p>Tomáš Havel · Planetarium Specialist</p>
+            </div>
+            <span class="tag">Workshop</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T13:30">13:30</time>
+            <div>
+              <h3>Astrophotography Basics</h3>
+              <p>Lucie Nováková · Astrophotographer</p>
+            </div>
+            <span class="tag">Workshop</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T15:00">15:00</time>
+            <div>
+              <h3>Mini Satellite / CubeSat Model</h3>
+              <p>Ing. Marek Dvořák · Aerospace Engineer</p>
+            </div>
+            <span class="tag">Workshop</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T16:30">16:30</time>
+            <div>
+              <h3>Gravity and Orbital Mechanics</h3>
+              <p>Dr. Sofia Lindholm · Theoretical Physicist</p>
+            </div>
+            <span class="tag">Science</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T17:30">17:30</time>
+            <div>
+              <h3>Black Hole Simulation</h3>
+              <p>Prof. Daniel Weiss · Black Hole Specialist</p>
+            </div>
+            <span class="tag">Science</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T19:00">19:00</time>
+            <div>
+              <h3>Synthwave Creation Lab</h3>
+              <p>Alex Nova Richter · Synthwave Producer</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T19:00">19:00</time>
+            <div>
+              <h3>Cosmic Sound Design</h3>
+              <p>Milan Ortega · Sound Designer</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T20:30">20:30</time>
+            <div>
+              <h3>Live Coding Music</h3>
+              <p>Hana Černá · Creative Programmer</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T21:30">21:30</time>
+            <div>
+              <h3>VR Space Travel</h3>
+              <p>Jan Vacek · VR Designer</p>
+            </div>
+            <span class="tag">Tech</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-04T22:00">22:00</time>
+            <div>
+              <h3>Astronaut Training Simulator</h3>
+              <p>Captain Laura Bennett · Aerospace Trainer</p>
+            </div>
+            <span class="tag">Tech</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+        </section>
+      </section>
+
+      <hr class="glow-line" />
+
+      <!-- Day 2 -->
+      <section id="day2">
+        <p class="label">Friday · 5 June 2026</p>
+        <h2>Day 2 — Science &amp; Sound</h2>
+
+        <section id="day2-letn">
+          <h3 style="color: var(--cyan); margin-bottom: 1rem">🚀 Letná Park</h3>
+          <article class="event-row">
+            <time datetime="2026-06-05T14:00">14:00</time>
+            <div>
+              <h3>Solar Flare Sunrise Set</h3>
+              <p>DJ Helios · Progressive House</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T15:30">15:30</time>
+            <div>
+              <h3>Deep Space Bass</h3>
+              <p>Nova Pulse · Bass Producer</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T17:00">17:00</time>
+            <div>
+              <h3>Orbit After Dark</h3>
+              <p>DJ Celestia · Techno DJ</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T18:30">18:30</time>
+            <div>
+              <h3>Cosmic Chill Session</h3>
+              <p>Lunar Drift · Ambient Producer</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T20:00">20:00</time>
+            <div>
+              <h3>Neon Nebula Live</h3>
+              <p>Starwave Collective · Electronic Band</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T21:30">21:30</time>
+            <div>
+              <h3>Intergalactic Techno</h3>
+              <p>Astrobyte · Sound Engineer/DJ</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T22:30">22:30</time>
+            <div>
+              <h3>Midnight Meteor Mix</h3>
+              <p>DJ Comet Trail · Festival DJ</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T23:30">23:30</time>
+            <div>
+              <h3>Space Disco Revival</h3>
+              <p>Planet Funk · Nu-Disco DJ</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T00:30">00:30</time>
+            <div>
+              <h3>Mars Colony Beats</h3>
+              <p>Red Horizon · Tech House</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T01:30">01:30</time>
+            <div>
+              <h3>Starlight Lo-Fi Lounge</h3>
+              <p>Moonlit Echo · Lo-Fi Producer</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T02:30">02:30</time>
+            <div>
+              <h3>Gravity Drop</h3>
+              <p>DJ Event Horizon · Hard Techno</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T03:30">03:30</time>
+            <div>
+              <h3>Cosmos House Party</h3>
+              <p>Zenith · Deep House</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T04:00">04:00</time>
+            <div>
+              <h3>Astro Funk Explosion</h3>
+              <p>The Rocket Groovers · Funk Fusion Band</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T05:00">05:00</time>
+            <div>
+              <h3>Cyber Galaxy Set</h3>
+              <p>Andromeda X · EDM Producer</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T06:00">06:00</time>
+            <div>
+              <h3>Final Countdown Closing Set</h3>
+              <p>Supernova Sound · EDM Collective</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T07:00">07:00</time>
+            <div>
+              <h3>Quantum Pulse Live</h3>
+              <p>DJ Photon · Future Bass</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T08:00">08:00</time>
+            <div>
+              <h3>Eclipse Finale</h3>
+              <p>Dark Matter Collective · Electronic Orchestra</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+        </section>
+
+        <section id="day2-vyst" style="margin-top: 2.5rem">
+          <h3 style="color: var(--violet); margin-bottom: 1rem">
+            🔬 Výstaviště Praha
+          </h3>
+          <article class="event-row">
+            <time datetime="2026-06-05T10:00">10:00</time>
+            <div>
+              <h3>Journey to Mars</h3>
+              <p>Dr. Pavel Horák · Space Mission Analyst</p>
+            </div>
+            <span class="tag">Talk</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T12:00">12:00</time>
+            <div>
+              <h3>Life Beyond Earth</h3>
+              <p>Dr. Amara Singh · Astrobiologist</p>
+            </div>
+            <span class="tag">Talk</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-05T14:00">14:00</time>
+            <div>
+              <h3>Black Holes: Dark Giants</h3>
+              <p>Prof. Daniel Weiss · Black Hole Specialist</p>
+            </div>
+            <span class="tag">Talk</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+        </section>
+      </section>
+
+      <hr class="glow-line" />
+
+      <!-- Day 3 -->
+      <section id="day3">
+        <p class="label">Saturday · 6 June 2026</p>
+        <h2>Day 3 — Cosmic Finale</h2>
+        <section id="day3-vyst">
+          <h3 style="color: var(--violet); margin-bottom: 1rem">
+            🔬 Výstaviště Praha
+          </h3>
+          <article class="event-row">
+            <time datetime="2026-06-06T10:00">10:00</time>
+            <div>
+              <h3>The Future of Space Exploration</h3>
+              <p>Ing. Katarina Müller · Space Tech Engineer</p>
+            </div>
+            <span class="tag">Talk</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T11:30">11:30</time>
+            <div>
+              <h3>Painting the Milky Way</h3>
+              <p>Master Orion · Galaxy Painter</p>
+            </div>
+            <span class="tag tag-pink">Art</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T12:30">12:30</time>
+            <div>
+              <h3>Cosmic Watercolor</h3>
+              <p>Sarah Nebula · Watercolor Artist</p>
+            </div>
+            <span class="tag tag-pink">Art</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T13:30">13:30</time>
+            <div>
+              <h3>Design Your Own Planet</h3>
+              <p>Leo Planetos · Concept Artist</p>
+            </div>
+            <span class="tag tag-pink">Art</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T14:30">14:30</time>
+            <div>
+              <h3>Astronaut Art</h3>
+              <p>Astra Ray · Portraitist</p>
+            </div>
+            <span class="tag tag-pink">Art</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T15:30">15:30</time>
+            <div>
+              <h3>Glow-in-the-Dark Galaxy Painting</h3>
+              <p>Glow Master · Fluorescent Artist</p>
+            </div>
+            <span class="tag tag-pink">Art</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T16:30">16:30</time>
+            <div>
+              <h3>Robotics in Deep Space Expo</h3>
+              <p>Nebula Staff 01 · Fair Coordinator</p>
+            </div>
+            <span class="tag">Tech</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T17:00">17:00</time>
+            <div>
+              <h3>Mars Colony Architecture Tour</h3>
+              <p>Elena Truss · Exhibition Guide</p>
+            </div>
+            <span class="tag">Tech</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T17:30">17:30</time>
+            <div>
+              <h3>Live VR Nebula Walk</h3>
+              <p>Kevin Wire · VR Technician</p>
+            </div>
+            <span class="tag">Tech</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T18:00">18:00</time>
+            <div>
+              <h3>History of the Apollo Missions</h3>
+              <p>Dr. Arthur Oldman · Space Historian</p>
+            </div>
+            <span class="tag">Talk</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T19:00">19:00</time>
+            <div>
+              <h3>Solar Observation Session</h3>
+              <p>Ivan Glass · Telescope Specialist</p>
+            </div>
+            <span class="tag">Science</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T20:00">20:00</time>
+            <div>
+              <h3>Plants in Zero Gravity Workshop</h3>
+              <p>Dr. Gaia Green · Bio-Space Researcher</p>
+            </div>
+            <span class="tag">Workshop</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T21:00">21:00</time>
+            <div>
+              <h3>Real-time Satellite Tracking Hub</h3>
+              <p>Link Satcom · Satellite Tracker</p>
+            </div>
+            <span class="tag">Tech</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T21:30">21:30</time>
+            <div>
+              <h3>Meteorite Touch-and-Feel Station</h3>
+              <p>Stony Rhodes · Meteorite Expert</p>
+            </div>
+            <span class="tag">Science</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T22:00">22:00</time>
+            <div>
+              <h3>Moon Rock Analysis Lab</h3>
+              <p>Dr. Terra Form · Astro-Geologist</p>
+            </div>
+            <span class="tag">Science</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T22:30">22:30</time>
+            <div>
+              <h3>Collaborative Galactic Mural</h3>
+              <p>Ink Jetter · Cosmic Illustrator</p>
+            </div>
+            <span class="tag tag-pink">Art</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T23:30">23:30</time>
+            <div>
+              <h3>Interactive Space Fair: Grand Finale</h3>
+              <p>Supernova Sound Staff · Festival Finale</p>
+            </div>
+            <span class="tag tag-cyan">Finale</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+        </section>
+        <section id="day3-letn" style="margin-top: 2.5rem">
+          <h3 style="color: var(--cyan); margin-bottom: 1rem">🚀 Letná Park</h3>
+          <article class="event-row">
+            <time datetime="2026-06-06T15:00">15:00</time>
+            <div>
+              <h3>Afternoon Water Rocket Demonstration</h3>
+              <p>Sarah Blast · Rocket Safety Officer</p>
+            </div>
+            <span class="tag">Workshop</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T18:00">18:00</time>
+            <div>
+              <h3>Spatial Audio Space Experience</h3>
+              <p>Audio Echo · Sound Engineer</p>
+            </div>
+            <span class="tag tag-cyan">Music</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-06-06T19:00">19:00</time>
+            <div>
+              <h3>NebulaPalooza Volunteer Meetup</h3>
+              <p>Director Nova · Event Coordinator</p>
+            </div>
+            <span class="tag">Event</span>
+            <button onclick="toggleFavourite(this)" style="background: transparent; border: 1px solid var(--cyan); color: var(--cyan); padding: 0.3rem 0.6rem; border-radius: 4px; cursor: pointer;">★ Save</button>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div class="logo">NebulaPalooza 2026</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="performers.html">Performers</a>
+        <a href="practical.html">Practical Info</a>
+      </nav>
+      <p>Images generated with Gemini and Nano Banana 2</p>
+    </footer>
+<script>
+  const searchInput = document.getElementById("search-events");
+  const tagSelect = document.getElementById("filter-tag");
+  const rows = document.querySelectorAll(".event-row");
+
+  function filterProgramme() {
+    const query = searchInput.value.trim().toLowerCase();
+    const selectedTag = tagSelect.value.trim().toLowerCase();
+
+    rows.forEach(row => {
+      const rowText = row.innerText.toLowerCase();
+      
+      // Grab all tags inside this row
+      const tagElements = row.querySelectorAll(".tag");
+      let combinedTags = "";
+      tagElements.forEach(el => {
+        combinedTags += " " + el.innerText.toLowerCase();
+      });
+
+      // Check conditions
+      const matchesQuery = query === "" || rowText.includes(query);
+      const matchesTag = selectedTag === "" || combinedTags.includes(selectedTag);
+
+      // Show or hide row based on whether it matches both search and tag
+      if (matchesQuery && matchesTag) {
+        row.style.display = "grid";
+      } else {
+        row.style.display = "none";
+      }
+    });
+  }
+
+  // 1. Filter live as you type in the search box
+  searchInput.addEventListener("input", filterProgramme);
+
+  // 2. Filter when pressing "Enter" in the search box
+  searchInput.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      filterProgramme();
+    }
+  });
+
+  // 3. Filter immediately when changing any option in the dropdown menu
+  tagSelect.addEventListener("change", function() {
+    // If they picked a category, we clear the search box text so they don't block each other
+    if (tagSelect.value !== "") {
+      searchInput.value = "";
+    }
+    filterProgramme();
+  });
+</script>
+<script>
+  function toggleFavourite(button) {
+    const row = button.closest(".event-row");
+    const h3 = row.querySelector("h3");
+    if (!h3) return;
+    const eventTitle = h3.innerText.trim();
+    
+    let favourites = JSON.parse(localStorage.getItem("myFavourites")) || [];
+
+    if (favourites.includes(eventTitle)) {
+      favourites = favourites.filter(title => title !== eventTitle);
+      button.innerText = "★ Save";
+      button.style.background = "transparent";
+      button.style.color = "var(--cyan)";
+    } else {
+      favourites.push(eventTitle);
+      button.innerText = "✓ Saved";
+      button.style.background = "var(--cyan)";
+      button.style.color = "var(--black)";
+    }
+
+    localStorage.setItem("myFavourites", JSON.stringify(favourites));
+  }
+
+  window.addEventListener("DOMContentLoaded", function() {
+    const favourites = JSON.parse(localStorage.getItem("myFavourites")) || [];
+    document.querySelectorAll(".event-row").forEach(row => {
+      const h3 = row.querySelector("h3");
+      const btn = row.querySelector("button");
+      if (h3 && btn) {
+        const title = h3.innerText.trim();
+        if (favourites.includes(title)) {
+          btn.innerText = "✓ Saved";
+          btn.style.background = "var(--cyan)";
+          btn.style.color = "var(--black)";
+        }
+      }
+    });
+  });
+</script>
+  </body> 
+</html>

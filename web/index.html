@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NebulaPalooza 2026 – Space Meets Sound | Prague</title>
+    <meta
+      name="description"
+      content="NebulaPalooza 2026 — a Sci-Art fusion festival in Prague blending synthwave music, rocket launches, astrophysics talks, and cosmic painting masterclasses. June 4–6, 2026."
+    />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="NebulaPalooza 2026 – Space Meets Sound"
+    />
+    <meta
+      property="og:description"
+      content="A Sci-Art fusion festival in Prague — June 4–6, 2026. Live synthwave, rocket launches, science talks, and cosmic art."
+    />
+    <meta
+      property="og:image"
+      content="https://picsum.photos/seed/nebula/1200/630"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- JSON-LD: Festival -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Festival",
+        "name": "NebulaPalooza",
+        "url": "https://nebulapalooza.cz",
+        "description": "A Sci-Art fusion festival blending high-energy music with educational space exploration.",
+        "startDate": "2026-06-04",
+        "endDate": "2026-06-06",
+        "location": [
+          {
+            "@type": "Place",
+            "name": "Letná Park",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Prague",
+              "addressCountry": "CZ"
+            }
+          },
+          {
+            "@type": "Place",
+            "name": "Výstaviště Praha",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Prague",
+              "addressCountry": "CZ"
+            }
+          }
+        ],
+        "organizer": { "@type": "Organization", "name": "NebulaPalooza Team" }
+      }
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="home">
+    <header>
+      <div class="logo">Nebula<span>Palooza</span></div>
+      <nav>
+        <a href="custom_list.html">My Programme</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="programme.html">Programme</a>
+        <a href="performers.html">Performers</a>
+        <a href="practical.html">Info</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="label">PRAGUE · CZECHIA · 2026</p>
+          <h1>Welcome to NebulaPalooza!</h1>
+          <h2>Space and Astronomy Themed Festival</h2>
+          <p>Three days of synthwave concerts, rocket launches, astrophysics talks, drone light shows, and cosmic painting — all under the Prague night sky.</p>
+          <div class="cta-row">
+            <a href="programme.html" class="btn btn-primary">Explore Programme</a>
+            <a href="practical.html" class="btn btn-ghost">Get Tickets</a>
+          </div>
+
+          <div class="countdown">
+            <div class="countdown-box">
+              <span class="num" id="cd-days">--</span>
+              <span class="lbl">Days</span>
+            </div>
+            <div class="countdown-box">
+              <span class="num" id="cd-hrs">--</span>
+              <span class="lbl">Hours</span>
+            </div>
+            <div class="countdown-box">
+              <span class="num" id="cd-min">--</span>
+              <span class="lbl">Minutes</span>
+            </div>
+            <div class="countdown-box">
+              <span class="num" id="cd-sec">--</span>
+              <span class="lbl">Seconds</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel -->
+        <div class="carousel" style="position:relative;z-index:1;">
+          <div class="carousel-track" id="carousel-track">
+
+            <div class="carousel-slide">
+              <img src="images/carousel_1.png" alt="Night drone show at Letná Park" class="carousel-img">
+              <div class="carousel-caption">
+                <div class="tag tag-pink">Visual Show</div>
+                <h3>Night Drone Shows</h3>
+                <p>Nightly at 21:30 — synchronized aerial formations over Letná Park.</p>
+              </div>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="images/carousel_2.png" alt="Live synthwave concert" class="carousel-img">
+              <div class="carousel-caption">
+                <div class="tag tag-cyan">Music</div>
+                <h3>Live Synthwave & DJs</h3>
+                <p>Aurora Synth, Lumina Beats, Galaxy Groove and 20+ acts over three nights.</p>
+              </div>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="images/carousel_3.png" alt="Water rocket launch" class="carousel-img">
+              <div class="carousel-caption">
+                <div class="tag">Rocketry</div>
+                <h3>Water Rocket Launch Lab</h3>
+                <p>Build and launch model rockets with certified aerospace engineers.</p>
+              </div>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="images/carousel_4.png" alt="Cosmic painting masterclass" class="carousel-img">
+              <div class="carousel-caption">
+                <div class="tag tag-pink">Art</div>
+                <h3>Cosmic Painting Masterclasses</h3>
+                <p>Glow-in-the-dark galaxies, UV nebulae, and alien worlds — all levels welcome.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <img
+          src="images/banner.png"
+          id="banner"
+          alt="NebulaPalooza night scene with drone light show over Letná Park"
+        />
+        <p class="label">About the festival</p>
+        <h2>A New Kind of Festival</h2>
+        <p>
+          NebulaPalooza fuses science and art into one unforgettable weekend. By
+          day, explore interactive workshops on rocketry, astrophotography, and
+          satellite engineering. By night, lose yourself in immersive drone
+          choreography and live synthwave performances that pulse with the
+          rhythm of the cosmos.
+        </p>
+        <p style="margin-top: 1rem">
+          Designed for families, students, and space enthusiasts — everyone is
+          welcome to the Launchpad.
+        </p>
+      </section>
+
+      <hr class="glow-line" />
+
+      <!-- Highlights -->
+      <section id="highlights">
+        <p class="label">Highlights</p>
+        <h2>What's On</h2>
+        <div class="grid-2">
+          <article class="card">
+            <div class="tag tag-cyan">Music</div>
+            <h3>Live Synthwave & DJ Sets</h3>
+            <p>
+              Aurora Synth, Lumina Beats, Galaxy Groove and 20+ acts perform
+              across three electrifying nights at Letná Park.
+            </p>
+          </article>
+          <article class="card">
+            <div class="tag">Rocketry</div>
+            <h3>Water Rocket Launch Lab</h3>
+            <p>
+              Watch — and build — model rockets using water pressure propulsion,
+              guided by certified aerospace engineers.
+            </p>
+          </article>
+          <article class="card">
+            <div class="tag tag-pink">Visual</div>
+            <h3>Night Drone Shows</h3>
+            <p>
+              Two nightly performances feature hundreds of synchronized drones
+              forming nebulae and planetary formations above the city.
+            </p>
+          </article>
+          <article class="card">
+            <div class="tag">Science</div>
+            <h3>Astrophysics Talks</h3>
+            <p>
+              Dr. Pavel Horák on Mars missions. Dr. Amara Singh on exoplanets.
+              Prof. Daniel Weiss on black holes. All free to attend.
+            </p>
+          </article>
+          <article class="card">
+            <div class="tag tag-cyan">Art</div>
+            <h3>Cosmic Painting Masterclasses</h3>
+            <p>
+              From glow-in-the-dark galaxy painting to UV watercolor nebulae —
+              create your own cosmic artwork to take home.
+            </p>
+          </article>
+          <article class="card">
+            <div class="tag">Tech</div>
+            <h3>Interactive Technology Fair</h3>
+            <p>
+              VR space travel, astronaut simulators, satellite tracking, and
+              CubeSat model building in the Výstaviště lab halls.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <hr class="glow-line" />
+
+      <!-- Dates -->
+      <section id="dates">
+        <p class="label">Festival Dates</p>
+        <h2>June 4 – 6, 2026</h2>
+        <ul>
+          <li class="card" style="margin-bottom: 0.8rem">
+            <time datetime="2026-06-04">Thursday 4 June 2026</time>
+            <h3 style="margin-top: 0.3rem">Opening Night</h3>
+            <p>
+              Workshops at Výstaviště · Opening DJ Set by Aurora Synth · Stellar
+              Origins Drone Show
+            </p>
+          </li>
+          <li class="card" style="margin-bottom: 0.8rem">
+            <time datetime="2026-06-05">Friday 5 June 2026</time>
+            <h3 style="margin-top: 0.3rem">Science & Sound Day</h3>
+            <p>
+              Science talks · Full DJ programme at Letná · Orbit Prague Drone
+              Formation
+            </p>
+          </li>
+          <li class="card">
+            <time datetime="2026-06-06">Saturday 6 June 2026</time>
+            <h3 style="margin-top: 0.3rem">Cosmic Finale</h3>
+            <p>
+              Painting masterclasses · Space Fair Grand Finale · Closing set by
+              Supernova Sound
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <aside>
+        <h3>Ticket Information</h3>
+        <p>
+          Day Pass: €20 / 500CZK · Full Cosmic Access (all 3 days): €49 / 1200CZK. Tickets
+          available at the venues and online. Children under 12 enter free. Students get 20% off with valid ISIC card.
+        </p>
+        <p style="margin-top: 0.8rem">
+          <a href="practical.html">→ See full practical information</a>
+        </p>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="logo">NebulaPalooza 2026</div>
+      <address>
+        Letná Park &amp; Výstaviště Praha, Prague, Czech Republic<br />
+        <a href="mailto:info@nebulapalooza.cz">info@nebulapalooza.cz</a>
+      </address>
+      <p>Made by Zhang Yiwen, Chien Ching-Wen, Shagieva Liliana, Gulnaz Baizhaunova, from ČZU v Praze <br> Images generated with Gemini and Nano Banana 2</p>
+    </footer>
+
+    <script src="carousel.js"></script>
+    <script src="countdown.js"></script>
+  </body>
+</html>

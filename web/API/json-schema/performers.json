@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "/api/performers",
+  "title": "PerformersList",
+  "type": "object",
+  "required": ["total", "page", "pageSize", "performers"],
+  "properties": {
+    "total":      { "type": "integer", "minimum": 0 },
+    "page":       { "type": "integer", "minimum": 1 },
+    "pageSize":   { "type": "integer", "minimum": 1, "maximum": 100 },
+    "performers": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/PerformerSummary" }
+    }
+  },
+  "$defs": {
+    "PerformerSummary": {
+      "type": "object",
+      "required": ["id", "name", "specialty", "link"],
+      "properties": {
+        "id":        { "type": "string", "pattern": "^P[0-9]+$" },
+        "name":      { "type": "string" },
+        "specialty": { "type": "string" },
+        "link":      { "type": "string" }
+      }
+    }
+  }
+}

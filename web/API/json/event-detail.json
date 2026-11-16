@@ -1,0 +1,14 @@
+{
+  "id": "E1",
+  "title": "Build Your Own Telescope",
+  "day": "2026-06-04",
+  "venue": {
+    "id": "V2",
+    "name": "Vystaviste Praha"
+  },
+  "performer": {
+    "id": "P1",
+    "name": "Dr. Elena Markovic",
+    "specialty": "Astrophysicist"
+  }
+}

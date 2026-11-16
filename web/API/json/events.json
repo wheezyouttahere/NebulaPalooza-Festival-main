@@ -1,0 +1,171 @@
+{
+  "page": 1,
+  "pageSize": 20,
+  "filters": {
+    "day": "2026-06-04",
+    "venueId": "",
+    "performerId": ""
+  },
+  "events": [
+    {
+      "id": "E1",
+      "title": "Build Your Own Telescope",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P1",
+      "link": "/api/events/E1"
+    },
+    {
+      "id": "E2",
+      "title": "Night Sky Mapping",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P2",
+      "link": "/api/events/E2"
+    },
+    {
+      "id": "E3",
+      "title": "Astrophotography Basics",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P3",
+      "link": "/api/events/E3"
+    },
+    {
+      "id": "E4",
+      "title": "Mini Satellite / CubeSat Model",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P4",
+      "link": "/api/events/E4"
+    },
+    {
+      "id": "E5",
+      "title": "Water Rocket Launch Lab",
+      "day": "2026-06-04",
+      "venueId": "V1",
+      "performerId": "P5",
+      "link": "/api/events/E5"
+    },
+    {
+      "id": "E6",
+      "title": "Drone Navigation Challenge",
+      "day": "2026-06-04",
+      "venueId": "V1",
+      "performerId": "P6",
+      "link": "/api/events/E6"
+    },
+    {
+      "id": "E7",
+      "title": "Gravity and Orbital Mechanics",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P7",
+      "link": "/api/events/E7"
+    },
+    {
+      "id": "E8",
+      "title": "Black Hole Simulation",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P8",
+      "link": "/api/events/E8"
+    },
+    {
+      "id": "E9",
+      "title": "Laser Lab / Light Shows",
+      "day": "2026-06-04",
+      "venueId": "V1",
+      "performerId": "P9",
+      "link": "/api/events/E9"
+    },
+    {
+      "id": "E10",
+      "title": "Synthwave Creation Lab",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P10",
+      "link": "/api/events/E10"
+    },
+    {
+      "id": "E11",
+      "title": "Cosmic Sound Design",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P11",
+      "link": "/api/events/E11"
+    },
+    {
+      "id": "E12",
+      "title": "Live Coding Music",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P12",
+      "link": "/api/events/E12"
+    },
+    {
+      "id": "E13",
+      "title": "VR Space Travel",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P13",
+      "link": "/api/events/E13"
+    },
+    {
+      "id": "E14",
+      "title": "Astronaut Training Simulator",
+      "day": "2026-06-04",
+      "venueId": "V2",
+      "performerId": "P14",
+      "link": "/api/events/E14"
+    },
+    {
+      "id": "E15",
+      "title": "Stellar Origins: Drone Show",
+      "day": "2026-06-04",
+      "venueId": "V1",
+      "performerId": "P15",
+      "link": "/api/events/E15"
+    },
+    {
+      "id": "E16",
+      "title": "Orbit Prague: Drone Formation",
+      "day": "2026-06-04",
+      "venueId": "V1",
+      "performerId": "P16",
+      "link": "/api/events/E16"
+    },
+    {
+      "id": "E17",
+      "title": "Nebula Dreams: Light Art",
+      "day": "2026-06-04",
+      "venueId": "V1",
+      "performerId": "P17",
+      "link": "/api/events/E17"
+    },
+    {
+      "id": "E18",
+      "title": "Opening DJ Set - Aurora Synth",
+      "day": "2026-06-04",
+      "venueId": "V1",
+      "performerId": "P18",
+      "link": "/api/events/E18"
+    },
+    {
+      "id": "E19",
+      "title": "Synthwave Concert - Lumina Beats",
+      "day": "2026-06-04",
+      "venueId": "V1",
+      "performerId": "P19",
+      "link": "/api/events/E19"
+    },
+    {
+      "id": "E20",
+      "title": "Galactic Groove Set",
+      "day": "2026-06-04",
+      "venueId": "V1",
+      "performerId": "P20",
+      "link": "/api/events/E20"
+    }
+  ]
+}

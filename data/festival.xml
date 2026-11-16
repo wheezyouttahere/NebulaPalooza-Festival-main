@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<festival name="NebulaPalooza" year="2026">
+  <identity>
+    <location>Prague, Czech Republic</location>
+    <dates>June 4-6, 2026</dates>
+  </identity>
+
+  <venues>
+    <venue id="V1" name="Letna Park" type="Outdoor"/>
+    <venue id="V2" name="Vystaviste Praha" type="Indoor/Exhibition"/>
+  </venues>
+
+  <performers>
+    <performer id="P1" specialty="Astrophysicist">Dr. Elena Markovic</performer>
+    <performer id="P2" specialty="Planetarium Specialist">Tomáš Havel</performer>
+    <performer id="P3" specialty="Astrophotographer">Lucie Nováková</performer>
+    <performer id="P4" specialty="Aerospace Engineer">Ing. Marek Dvořák</performer>
+    <performer id="P5" specialty="Rocketry Instructor">Petra Kralova</performer>
+    <performer id="P6" specialty="Robotics Trainer">Jakub Steiner</performer>
+    <performer id="P7" specialty="Theoretical Physicist">Dr. Sofia Lindholm</performer>
+    <performer id="P8" specialty="Black Hole Specialist">Prof. Daniel Weiss</performer>
+    <performer id="P9" specialty="Light Engineer">Eva Santoro</performer>
+    <performer id="P10" specialty="Synthwave Producer">Alex Nova Richter</performer>
+    <performer id="P11" specialty="Sound Designer">Milan Ortega</performer>
+    <performer id="P12" specialty="Creative Programmer">Hana Černá</performer>
+    <performer id="P13" specialty="VR Designer">Jan Vacek</performer>
+    <performer id="P14" specialty="Aerospace Trainer">Captain Laura Bennett</performer>
+    <performer id="P15" specialty="Drone Choreographer">Orion Skye</performer>
+    <performer id="P16" specialty="Drone Specialist">Luna Karas</performer>
+    <performer id="P17" specialty="Light Artist">Celeste Vega</performer>
+    <performer id="P18" specialty="Synthwave DJ">Aurora Synth</performer>
+    <performer id="P19" specialty="Live Synth Performer">Lumina Beats</performer>
+    <performer id="P20" specialty="Funk DJ Collective">Galaxy Groove</performer>
+    <performer id="P21" specialty="Progressive House">DJ Helios</performer>
+    <performer id="P22" specialty="Bass Producer">Nova Pulse</performer>
+    <performer id="P23" specialty="Techno DJ">DJ Celestia</performer>
+    <performer id="P24" specialty="Ambient Producer">Lunar Drift</performer>
+    <performer id="P25" specialty="Electronic Band">Starwave Collective</performer>
+    <performer id="P26" specialty="Sound Engineer/DJ">Astrobyte</performer>
+    <performer id="P27" specialty="Festival DJ">DJ Comet Trail</performer>
+    <performer id="P28" specialty="Nu-Disco DJ">Planet Funk</performer>
+    <performer id="P29" specialty="Tech House">Red Horizon</performer>
+    <performer id="P30" specialty="Lo-Fi Producer">Moonlit Echo</performer>
+    <performer id="P31" specialty="Hard Techno">DJ Event Horizon</performer>
+    <performer id="P32" specialty="Deep House">Zenith</performer>
+    <performer id="P33" specialty="Funk Fusion Band">The Rocket Groovers</performer>
+    <performer id="P34" specialty="EDM Producer">Andromeda X</performer>
+    <performer id="P35" specialty="EDM Collective">Supernova Sound</performer>
+    <performer id="P36" specialty="Future Bass">DJ Photon</performer>
+    <performer id="P37" specialty="Electronic Orchestra">Dark Matter Collective</performer>
+    <performer id="P38" specialty="Space Mission Analyst">Dr. Pavel Horák</performer>
+    <performer id="P39" specialty="Astrobiologist">Dr. Amara Singh</performer>
+    <performer id="P40" specialty="Space Tech Engineer">Ing. Katarina Müller</performer>
+    <performer id="P41" specialty="Galaxy Painter">Master Orion</performer>
+    <performer id="P42" specialty="Watercolor Artist">Sarah Nebula</performer>
+    <performer id="P43" specialty="Concept Artist">Leo Planetos</performer>
+    <performer id="P44" specialty="Portraitist">Astra Ray</performer>
+    <performer id="P45" specialty="Fluorescent Artist">Glow Master</performer>
+    <performer id="P46" specialty="Fair Coordinator">Nebula Staff 01</performer>
+    <performer id="P47" specialty="Exhibition Guide">Elena Truss</performer>
+    <performer id="P48" specialty="VR Technician">Kevin Wire</performer>
+    <performer id="P49" specialty="Space Historian">Dr. Arthur Oldman</performer>
+    <performer id="P50" specialty="Rocket Safety Officer">Sarah Blast</performer>
+    <performer id="P51" specialty="Telescope Specialist">Ivan Glass</performer>
+    <performer id="P52" specialty="Bio-Space Researcher">Dr. Gaia Green</performer>
+    <performer id="P53" specialty="Satellite Tracker">Link Satcom</performer>
+    <performer id="P54" specialty="Meteorite Expert">Stony Rhodes</performer>
+    <performer id="P55" specialty="Astro-Geologist">Dr. Terra Form</performer>
+    <performer id="P56" specialty="Cosmic Illustrator">Ink Jetter</performer>
+    <performer id="P57" specialty="Sound Engineer">Audio Echo</performer>
+    <performer id="P58" specialty="Event Coordinator">Director Nova</performer>
+    <performer id="P59" specialty="Guest Liaison">Star Host</performer>
+    <performer id="P60" specialty="Festival Finale Collective">Supernova Sound Staff</performer>
+  </performers>
+
+  <programme>
+    <event id="E1" day="2026-06-04" venue="V2" performer="P1">Build Your Own Telescope</event>
+    <event id="E2" day="2026-06-04" venue="V2" performer="P2">Night Sky Mapping</event>
+    <event id="E3" day="2026-06-04" venue="V2" performer="P3">Astrophotography Basics</event>
+    <event id="E4" day="2026-06-04" venue="V2" performer="P4">Mini Satellite / CubeSat Model</event>
+    <event id="E5" day="2026-06-04" venue="V1" performer="P5">Water Rocket Launch Lab</event>
+    <event id="E6" day="2026-06-04" venue="V1" performer="P6">Drone Navigation Challenge</event>
+    <event id="E7" day="2026-06-04" venue="V2" performer="P7">Gravity and Orbital Mechanics</event>
+    <event id="E8" day="2026-06-04" venue="V2" performer="P8">Black Hole Simulation</event>
+    <event id="E9" day="2026-06-04" venue="V1" performer="P9">Laser Lab / Light Shows</event>
+    <event id="E10" day="2026-06-04" venue="V2" performer="P10">Synthwave Creation Lab</event>
+    <event id="E11" day="2026-06-04" venue="V2" performer="P11">Cosmic Sound Design</event>
+    <event id="E12" day="2026-06-04" venue="V2" performer="P12">Live Coding Music</event>
+    <event id="E13" day="2026-06-04" venue="V2" performer="P13">VR Space Travel</event>
+    <event id="E14" day="2026-06-04" venue="V2" performer="P14">Astronaut Training Simulator</event>
+    <event id="E15" day="2026-06-04" venue="V1" performer="P15">Stellar Origins: Drone Show</event>
+    <event id="E16" day="2026-06-04" venue="V1" performer="P16">Orbit Prague: Drone Formation</event>
+    <event id="E17" day="2026-06-04" venue="V1" performer="P17">Nebula Dreams: Light Art</event>
+    <event id="E18" day="2026-06-04" venue="V1" performer="P18">Opening DJ Set - Aurora Synth</event>
+    <event id="E19" day="2026-06-04" venue="V1" performer="P19">Synthwave Concert - Lumina Beats</event>
+    <event id="E20" day="2026-06-04" venue="V1" performer="P20">Galactic Groove Set</event>
+    <event id="E21" day="2026-06-05" venue="V1" performer="P21">Solar Flare Sunrise Set</event>
+    <event id="E22" day="2026-06-05" venue="V1" performer="P22">Deep Space Bass</event>
+    <event id="E23" day="2026-06-05" venue="V1" performer="P23">Orbit After Dark</event>
+    <event id="E24" day="2026-06-05" venue="V1" performer="P24">Cosmic Chill Session</event>
+    <event id="E25" day="2026-06-05" venue="V1" performer="P25">Neon Nebula Live</event>
+    <event id="E26" day="2026-06-05" venue="V1" performer="P26">Intergalactic Techno</event>
+    <event id="E27" day="2026-06-05" venue="V1" performer="P27">Midnight Meteor Mix</event>
+    <event id="E28" day="2026-06-05" venue="V1" performer="P28">Space Disco Revival</event>
+    <event id="E29" day="2026-06-05" venue="V1" performer="P29">Mars Colony Beats</event>
+    <event id="E30" day="2026-06-05" venue="V1" performer="P30">Starlight Lo-Fi Lounge</event>
+    <event id="E31" day="2026-06-05" venue="V1" performer="P31">Gravity Drop</event>
+    <event id="E32" day="2026-06-05" venue="V1" performer="P32">Cosmos House Party</event>
+    <event id="E33" day="2026-06-05" venue="V1" performer="P33">Astro Funk Explosion</event>
+    <event id="E34" day="2026-06-05" venue="V1" performer="P34">Cyber Galaxy Set</event>
+    <event id="E35" day="2026-06-05" venue="V1" performer="P35">Final Countdown Closing Set</event>
+    <event id="E36" day="2026-06-05" venue="V1" performer="P36">Quantum Pulse Live</event>
+    <event id="E37" day="2026-06-05" venue="V1" performer="P37">Eclipse Finale</event>
+    <event id="E38" day="2026-06-05" venue="V2" performer="P38">Journey to Mars</event>
+    <event id="E39" day="2026-06-05" venue="V2" performer="P39">Life Beyond Earth</event>
+    <event id="E40" day="2026-06-05" venue="V2" performer="P8">Black Holes: Dark Giants</event>
+    <event id="E41" day="2026-06-06" venue="V2" performer="P40">The Future of Space Exploration</event>
+    <event id="E42" day="2026-06-06" venue="V2" performer="P41">Painting the Milky Way</event>
+    <event id="E43" day="2026-06-06" venue="V2" performer="P42">Cosmic Watercolor</event>
+    <event id="E44" day="2026-06-06" venue="V2" performer="P43">Design Your Own Planet</event>
+    <event id="E45" day="2026-06-06" venue="V2" performer="P44">Astronaut Art</event>
+    <event id="E46" day="2026-06-06" venue="V2" performer="P45">Glow-in-the-Dark Galaxy Painting</event>
+    <event id="E47" day="2026-06-06" venue="V2" performer="P46">Robotics in Deep Space Expo</event>
+    <event id="E48" day="2026-06-06" venue="V2" performer="P47">Mars Colony Architecture Tour</event>
+    <event id="E49" day="2026-06-06" venue="V2" performer="P48">Live VR Nebula Walk</event>
+    <event id="E50" day="2026-06-06" venue="V2" performer="P49">History of the Apollo Missions Talk</event>
+    <event id="E51" day="2026-06-06" venue="V1" performer="P50">Afternoon Water Rocket Demonstration</event>
+    <event id="E52" day="2026-06-06" venue="V2" performer="P51">Solar Observation Session</event>
+    <event id="E53" day="2026-06-06" venue="V2" performer="P52">Plants in Zero Gravity Workshop</event>
+    <event id="E54" day="2026-06-06" venue="V2" performer="P53">Real-time Satellite Tracking Hub</event>
+    <event id="E55" day="2026-06-06" venue="V2" performer="P54">Meteorite Touch-and-Feel Station</event>
+    <event id="E56" day="2026-06-06" venue="V2" performer="P55">Moon Rock Analysis Lab</event>
+    <event id="E57" day="2026-06-06" venue="V2" performer="P56">Collaborative Galactic Mural</event>
+    <event id="E58" day="2026-06-06" venue="V1" performer="P57">Spatial Audio Space Experience</event>
+    <event id="E59" day="2026-06-06" venue="V1" performer="P58">NebulaPalooza Volunteer Meetup</event>
+    <event id="E60" day="2026-06-06" venue="V2" performer="P60">Interactive Space Fair: Grand Finale</event>
+  </programme>
+</festival>
