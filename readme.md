@@ -128,4 +128,4 @@ AI tools (primarily Claude) were useful for generating structured and repetitive
 
 ---
 
-_Made by Zhang Yiwen, Chien Ching-Wen, Shagieva Liliana, Gulnaz Baizhaunova — ČZU v Praze, 2026_
+_Made by Beisembayev Bexultan, Shagieva Liliana, Gulnaz Baizhaunova — ČZU v Praze, 2026_
